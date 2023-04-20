@@ -1,10 +1,4 @@
-import ClassRoom from './0-classroom';
-
-export default function initializeRooms() {
-  return [new ClassRoom(19), new ClassRoom(20), new ClassRoom(34)];
-}
-
-export class HolbertonCourse {
+export default class HolbertonCourse {
   constructor(name, length, students) {
     this.name = name;
     this.length = length;
